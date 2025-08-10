@@ -31,3 +31,5 @@ jobs:
         with:
           function-name: my-lambda-function
           code-artifacts-dir: ./dist
+          handler: main.lambda_handler
+          role-to-assume: arn:aws:iam::944249714029:role/github-actoins-role
