@@ -24,7 +24,7 @@ jobs:
       - name: prepare environment
         run: |
           mkdir -p dist
-          cp main.py dist/app.py
+          cp main.py dist/
       
       - name: Deploy Lambda Function
         uses: aws-actions/aws-lambda-deploy@v1
