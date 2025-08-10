@@ -30,6 +30,7 @@ jobs:
         uses: aws-actions/aws-lambda-deploy@v1
         with:
           function-name: my-lambda-function
+          runtime: python3.9
           code-artifacts-dir: ./dist
           handler: main.lambda_handler
           role: arn:aws:iam::944249714029:role/lambda-execution-role
