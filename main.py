@@ -4,10 +4,17 @@ def greet():
 def sum(a: int, b: int) -> int:
     return a + b
 
-def main():
+def run_logic():
     greet()
     result = sum(5, 3)
-    print(f"The sum of 5 and 3 is: {result}")   
+    print(f"The answer is: {result}")
+
+def lambda_handler(event, context):
+    run_logic()
+    return {
+        'statusCode': 200,
+        'body': 'Function executed successfully!'
+    }   
 
 if __name__ == "__main__":
-    main()
+    run_logic()
