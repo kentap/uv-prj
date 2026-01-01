@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# terraform files
+*.tfstate
+*.hcl
+
+# etc
+*.log
+*.tmp
+.DS_Store
+*.txt
+*_x5

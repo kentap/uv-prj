@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"firehose","Source":"./modules/firehose","Dir":"modules/firehose"},{"Key":"firehose.cw_logs","Source":"../cloudwatch_logs","Dir":"modules/cloudwatch_logs"},{"Key":"firehose.eventbridge","Source":"../eventbridge","Dir":"modules/eventbridge"}]}
